@@ -26,7 +26,7 @@ export default class Contacts extends Flux.View {
                             <input type="text" className="form-control" placeholder="Enter address" />
                         </div>
                         <button type="button" className="btn btn-primary form-control">save</button>
-                        <Link className="mt-3 w-100 text-center" to="/">or get back to contacts</Link>
+                        <button type="button" className="btn btn-sm btn-dark"><Link className="mt-3 w-100 text-center" to="/">Go Back</Link></button>
                     </form>
                 </div>
             </div>
