@@ -10,13 +10,14 @@ import 'bootstrap';
 import './icons.js';
 
 //include your index.scss file into the bundle
-import '../styles/index.scss';
+import './styles/index.scss';
 
 //import your own components
-import Layout from './Layout.jsx';
+import App from './App.jsx';
+import Header from './components/Header/Header.jsx';
 
-//render your react application
+// render your react application
 ReactDOM.render(
-    <Layout />,
+    <App />,
     document.querySelector('#app')
 );
